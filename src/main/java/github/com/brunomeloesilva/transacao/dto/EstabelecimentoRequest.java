@@ -6,6 +6,8 @@ public class EstabelecimentoRequest {
 	private String cidade;
 	private String endereco;
 
+	@Deprecated
+	public EstabelecimentoRequest() {};
 	public EstabelecimentoRequest(String nome, String cidade, String endereco) {
 		this.nome = nome;
 		this.cidade = cidade;
